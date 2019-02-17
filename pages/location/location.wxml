@@ -1,0 +1,3 @@
+<!--pages/location/location.wxml-->
+ <navHeadLocation   my-city="北京" data="{{city}}" binddetail="bindtap"></navHeadLocation>
+
