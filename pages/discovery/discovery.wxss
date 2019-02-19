@@ -1,36 +1,36 @@
 .container {
-    height: 1500rpx;
+  height: 1500rpx;
 }
 
 .container .activity {
-    width: 750rpx;
-    height: 375rpx;
+  width: 750rpx;
+  height: 375rpx;
 }
 
 .container .activity image {
-    width: 750rpx;
-    height: 375rpx;
+  width: 750rpx;
+  height: 375rpx;
 }
 
 .container .placehold {
-    font-size: 28rpx;
-    padding: 80rpx 0;
+  font-size: 28rpx;
+  padding: 80rpx 0;
 }
 
 .top-tab {
-    width: 750rpx;
-    height: 100rpx;
-    background: #298DE5;
-    color: #8CCEFD;
-    font-size: 28rpx;
-    line-height: 100rpx;
-    -webkit-box-shadow: 0 2px 2px #bebebe;
-    box-shadow: 0 2px 2px #bebebe;
-    margin: 0 0 8rpx 0;
-    z-index: 9999;
+  width: 750rpx;
+  height: 100rpx;
+  background: #298DE5;
+  color: #8CCEFD;
+  font-size: 28rpx;
+  line-height: 100rpx;
+  -webkit-box-shadow: 0 2px 2px #bebebe;
+          box-shadow: 0 2px 2px #bebebe;
+  margin: 0 0 8rpx 0;
+  z-index: 9999;
 }
 
 .top-tab .toptab.active {
-    color: #ffffff;
-    border-bottom: solid 2px #ffffff;
+  color: #ffffff;
+  border-bottom: solid 2px #ffffff;
 }

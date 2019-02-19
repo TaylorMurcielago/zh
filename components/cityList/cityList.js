@@ -1,4 +1,5 @@
 // component/cityList/cityList.js
+var app = getApp()
 Component({
     /**
      * 组件的属性列表
@@ -78,7 +79,7 @@ Component({
                     title: '我的定位',
                     type: 'me',
                     item: [{
-                        name: '点击获取我的位置',
+                        name: app.globalData.nowLoc,
                         key: '我的定位'
                     }]
                 })

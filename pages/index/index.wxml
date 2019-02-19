@@ -1,10 +1,10 @@
 <!--index.wxml-->
 <!-- 获取用户授权 -->
-<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+<!-- <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button> -->
 <scroll-view scroll-y="true" class="container" bindscrolltoupper="upper" upper-threshold="10" lower-threshold="5" bindscrolltolower="lower" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
 
     <!-- 首页搜索 -->
-    <view class="search flex-wrp" bindtap="showLocation">
+    <!-- <view class="search flex-wrp" bindtap="showLocation">
         <view class="search-left flex-item">
             <image src="{{imgUrl}}/search.png{{version}}"></image>
             <input placeholder="搜索话题, 问题或人" placeholder-class="search-placeholder" />
@@ -12,7 +12,7 @@
         <view class="search-right flex-item" bindtap="upper">
             <image src="{{imgUrl}}/lighting.png{{version}}"></image>
         </view>
-    </view>
+    </view> -->
 
 
     <!-- 位置按钮 -->

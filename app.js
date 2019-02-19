@@ -29,8 +29,8 @@ App({
         userInfo: null,
         imgUrl: domain.img, //图片路径
         version: "?v=" + domain.imgVersion,
-        currentLoc: "test",
-        destinationLoc: '上海市', // 默认目的地城市信息
-
+        currentLoc: "上海市",
+        destinationLoc: '家乡', // 默认目的地城市信息
+        nowLoc: '', //我的定位不会变
     }
 })

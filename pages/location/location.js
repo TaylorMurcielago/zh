@@ -4,7 +4,6 @@ var util = require('../../utils/util.js')
 let City = require('../../utils/allcity.js');
 
 Page({
-
     data: {
         city: [],
         config: {
@@ -13,23 +12,42 @@ Page({
             search: true, // 是否开启搜索
             searchHeight: 45, // 搜索条高度
             suctionTop: true // 是否开启标题吸顶
-        }
+        },
+        originLoc: "",
     },
-    onLoad() {
+    onLoad(options) {
+        var that = this;
         // wx.showLoading({
-        //   title: '加载数据中...',
-        // })
+        //         title: '加载数据中...',
+        //     })
         // // 模拟服务器请求异步加载数据
-        // setTimeout(()=>{
-        this.setData({
+        // setTimeout(() => {
+        that.setData({
                 city: City
             })
-            //   wx.hideLoading()
-            // },2000)
-
+            //     wx.hideLoading()
+            // }, 2000)
+            //判断选择城市来源按钮
+        if (options.startDestination == "current") {
+            that.setData({
+                originLoc: "current"
+            })
+        } else {
+            that.setData({
+                originLoc: "destination"
+            })
+        }
     },
     bindtap(e) {
-        console.log(e.detail)
+        console.log(e.detail);
+        var that = this;
+        if (that.data.originLoc == "current") {
+            app.globalData.currentLoc = e.detail.name;
+        } else if (that.data.originLoc == "destination") {
+            app.globalData.destinationLoc = e.detail.name;
+        }
+        wx.navigateBack({
+            delta: 1
+        })
     },
-
 })

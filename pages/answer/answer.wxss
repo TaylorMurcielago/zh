@@ -1,188 +1,187 @@
 /**answer.wxss**/
-
 .container {
-    padding: 0;
-    font-size: 14rpx;
-    background: #F0F4F3;
-    color: #000;
+  padding: 0;
+  font-size: 14rpx;
+  background: #F0F4F3;
+  color: #000;
 }
 
 .container .question {
-    position: relative;
-    width: 650rpx;
-    padding: 40rpx 50rpx 30rpx;
-    background: #298DE5;
-    color: #fff;
-    font-size: 38rpx;
-    line-height: 48rpx;
+  position: relative;
+  width: 650rpx;
+  padding: 40rpx 50rpx 30rpx;
+  background: #298DE5;
+  color: #fff;
+  font-size: 38rpx;
+  line-height: 48rpx;
 }
 
 .container .answerer-wrp {
-    position: relative;
-    width: 750rpx;
-    height: 150rpx;
-    background: #fff;
+  position: relative;
+  width: 750rpx;
+  height: 150rpx;
+  background: #fff;
 }
 
 .container .answerer-wrp .bg-half {
-    position: absolute;
-    top: 0;
-    width: 750rpx;
-    height: 75rpx;
-    background: #298DE5;
+  position: absolute;
+  top: 0;
+  width: 750rpx;
+  height: 75rpx;
+  background: #298DE5;
 }
 
 .container .answerer-wrp .answerer {
-    position: relative;
-    margin: 0 auto;
-    width: 630rpx;
-    height: 90rpx;
-    padding: 30rpx;
-    background: #fff;
-    border: solid 1px #ebebeb;
-    border-radius: 3px;
-    -webkit-box-shadow: 0 1px 2px #bebebe;
-    box-shadow: 0 1px 2px #bebebe;
+  position: relative;
+  margin: 0 auto;
+  width: 630rpx;
+  height: 90rpx;
+  padding: 30rpx;
+  background: #fff;
+  border: solid 1px #ebebeb;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px #bebebe;
+          box-shadow: 0 1px 2px #bebebe;
 }
 
 .container .answerer-wrp .answerer .avatar {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    width: 90rpx;
-    height: 90rpx;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 90rpx;
+  height: 90rpx;
 }
 
 .container .answerer-wrp .answerer .avatar image {
-    display: inline-block;
-    width: 90rpx;
-    height: 90rpx;
-    border-radius: 90rpx;
+  display: inline-block;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 90rpx;
 }
 
 .container .answerer-wrp .answerer .answerer-info {
-    -webkit-box-flex: 5;
-    -ms-flex: 5;
-    flex: 5;
-    text-align: left;
-    padding: 10rpx 20rpx;
-    line-height: 38rpx;
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  text-align: left;
+  padding: 10rpx 20rpx;
+  line-height: 38rpx;
 }
 
 .container .answerer-wrp .answerer .answerer-info text {
-    display: block;
+  display: block;
 }
 
 .container .answerer-wrp .answerer .answerer-info .answerer-name {
-    font-size: 32rpx;
+  font-size: 32rpx;
 }
 
 .container .answerer-wrp .answerer .answerer-info .answerer-des {
-    font-size: 22rpx;
-    color: #808080;
-    line-height: 28rpx;
+  font-size: 22rpx;
+  color: #808080;
+  line-height: 28rpx;
 }
 
 .container .answerer-wrp .answerer .follow {
-    -webkit-box-flex: 2;
-    -ms-flex: 2;
-    flex: 2;
-    padding: 15rpx 0;
-    font-size: 22rpx;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding: 15rpx 0;
+  font-size: 22rpx;
 }
 
 .container .answerer-wrp .answerer .follow text {
-    display: inline-block;
-    padding: 15rpx 20rpx;
-    color: #40bcd0;
-    border: solid 2px #40bcd0;
-    border-radius: 6rpx;
+  display: inline-block;
+  padding: 15rpx 20rpx;
+  color: #40bcd0;
+  border: solid 2px #40bcd0;
+  border-radius: 6rpx;
 }
 
 .container .answer-content {
-    padding: 30rpx 40rpx;
-    background: #ffffff;
+  padding: 30rpx 40rpx;
+  background: #ffffff;
 }
 
 .container .answer-content text {
-    font-size: 32rpx;
-    color: #454545;
-    line-height: 44rpx;
+  font-size: 32rpx;
+  color: #454545;
+  line-height: 44rpx;
 }
 
 .container .answer-content image {
-    width: 100%;
-    margin: 20rpx 0;
+  width: 100%;
+  margin: 20rpx 0;
 }
 
 .container .answer-footer {
-    position: fixed;
-    bottom: 0;
-    height: 70rpx;
-    border-top: solid 1px #ebebeb;
-    background: #ffffff;
-    width: 670rpx;
-    padding: 20rpx 40rpx;
+  position: fixed;
+  bottom: 0;
+  height: 70rpx;
+  border-top: solid 1px #ebebeb;
+  background: #ffffff;
+  width: 670rpx;
+  padding: 20rpx 40rpx;
 }
 
 .container .answer-footer .good {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    /*display: inline-block;*/
-    height: 40rpx;
-    border: solid 1px #d1d1d1;
-    border-radius: 3px;
-    padding: 10rpx 8rpx;
-    margin: 10rpx 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  /*display: inline-block;*/
+  height: 40rpx;
+  border: solid 1px #d1d1d1;
+  border-radius: 3px;
+  padding: 10rpx 8rpx;
+  margin: 10rpx 0;
 }
 
 .container .answer-footer .good .good-bad {
-    display: inline-block;
+  display: inline-block;
 }
 
 .container .answer-footer .good image {
-    display: inline-block;
-    width: 38rpx;
-    height: 38rpx;
-    vertical-align: middle;
+  display: inline-block;
+  width: 38rpx;
+  height: 38rpx;
+  vertical-align: middle;
 }
 
 .container .answer-footer .good .good-num {
-    display: inline-block;
-    padding: 10rpx 4rpx;
-    /*font-size: 24rpx;*/
+  display: inline-block;
+  padding: 10rpx 4rpx;
+  /*font-size: 24rpx;*/
 }
 
 .container .answer-footer .operation-wrp {
-    -webkit-box-flex: 5;
-    -ms-flex: 5;
-    flex: 5;
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
 }
 
 .container .answer-footer .operation {
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: 0 0 0 60rpx;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0 0 60rpx;
 }
 
 .container .answer-footer .operation-btn {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
 }
 
 .container .answer-footer .operation image {
-    display: block;
-    margin: 0 auto;
-    width: 50rpx;
-    height: 50rpx;
+  display: block;
+  margin: 0 auto;
+  width: 50rpx;
+  height: 50rpx;
 }
 
 .container .answer-footer .operation-btn text {
-    display: block;
-    font-size: 14rpx;
-    color: #bebebe;
+  display: block;
+  font-size: 14rpx;
+  color: #bebebe;
 }

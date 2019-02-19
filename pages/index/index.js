@@ -99,8 +99,8 @@ Page({
     },
     onShow: function() {
         var that = this;
-        console.log(app.globalData.currentLoc + "currentLoc");
-        console.log(app.globalData.destinationLoc + "destinationLoc");
+        // console.log(app.globalData.currentLoc + "currentLoc");
+        // console.log(app.globalData.destinationLoc + "destinationLoc");
         that.setData({
             currentLoc: app.globalData.currentLoc,
             destinationLoc: app.globalData.destinationLoc
@@ -120,9 +120,12 @@ Page({
                     var success = function(data) {
 
                         that.setData({
-                            currentLoc: data.currentWeather[0].currentCity
-                        })
+                                currentLoc: data.currentWeather[0].currentCity
+                            })
+                            //我的城市
                         app.globalData.currentLoc = data.currentWeather[0].currentCity;
+                        //我的定位不会变citylist显示
+                        app.globalData.nowLoc = data.currentWeather[0].currentCity;
                         console.log(data.currentWeather[0].currentCity);
                         // var weatherData = currentLoc; 
                     }
@@ -136,7 +139,6 @@ Page({
     },
     bindLocation: function(event) {
         // var parameter = "?id=" + this.data.currentLoc.id + "&&name=" + this.data.currentLoc.name + "&&uid=" + this.data.currentLoc.uid;
-
         wx.navigateTo({
             url: '/pages/location/location?startDestination=current'
         });
