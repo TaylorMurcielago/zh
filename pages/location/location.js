@@ -32,7 +32,7 @@ Page({
     onLoad: function(options) {
 
         console.log(options.startDestination)
-        var that = this
+        var that = this;
         that.setData({
                 oldCityFlag: options.startDestination
             })
@@ -45,13 +45,13 @@ Page({
     bindtap(e) {
         console.log(e.detail);
         var that = this;
+        // app.globalData.currentLoc = "";
+        // app.globalData.destinationLoc = "";
         if (that.data.oldCityFlag == "current") {
             app.globalData.currentLoc = e.detail.name;
         } else {
             app.globalData.destinationLoc = e.detail.name;
         }
-
-
         wx.navigateBack({
             delta: 2
         })

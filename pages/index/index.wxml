@@ -1,5 +1,8 @@
 <!--index.wxml-->
+<!-- 获取用户授权 -->
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
 <scroll-view scroll-y="true" class="container" bindscrolltoupper="upper" upper-threshold="10" lower-threshold="5" bindscrolltolower="lower" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+
     <!-- 首页搜索 -->
     <view class="search flex-wrp" bindtap="showLocation">
         <view class="search-left flex-item">
@@ -18,7 +21,7 @@
             <label class="label-city" bindtap="bindLocation">当前城市:
         <text class="city" data-se="current">{{currentLoc}}</text>
       </label>
-            <label class="label-Des" bindtap="bindLocation">理想城市:
+            <label class="label-Des" bindtap="bindDestination">理想城市:
         <text class="city" data-se="destination">{{destinationLoc}}</text>
       </label>
             <!-- <label class="label-type" bindtap="bindCategory">类型 时间 地点
