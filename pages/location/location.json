@@ -1,6 +1,6 @@
 {
     "component": true,
     "usingComponents": {
-        "navHeadLocation": "../../components/nav_head_location/nav_head_location"
+        "list-html": "../../components/cityList/cityList"
     }
 }
