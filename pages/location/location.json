@@ -1,6 +1,6 @@
 {
     "component": true,
     "usingComponents": {
-        "list-html": "../../components/cityList/cityList"
+        "cityList": "../../components/cityList/cityList"
     }
 }
