@@ -1,6 +1,5 @@
 <!--index.wxml-->
 <!-- 获取用户授权 -->
-<!-- <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button> -->
 <scroll-view scroll-y="true" class="container" bindscrolltoupper="upper" upper-threshold="10" lower-threshold="5" bindscrolltolower="lower" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
 
     <!-- 首页搜索 -->

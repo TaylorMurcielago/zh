@@ -1,83 +1,129 @@
 .user {
-  width: 725rpx;
-  background: #ffffff;
-  padding: 30rpx 25rpx 30rpx 0;
-  margin: 15rpx 0 0 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #dcdcdc;
-  -webkit-box-shadow: 0 2px 5px #eeeeee;
-          box-shadow: 0 2px 5px #eeeeee;
+    width: 725rpx;
+    background: #ffffff;
+    padding: 30rpx 25rpx 30rpx 0;
+    margin: 15rpx 0 0 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #dcdcdc;
+    -webkit-box-shadow: 0 2px 5px #eeeeee;
+    box-shadow: 0 2px 5px #eeeeee;
 }
 
 .user .userinfo-avatar {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: inline-block;
-  width: 100rpx;
-  height: 100rpx;
-  border-radius: 80rpx;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: inline-block;
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 80rpx;
 }
 
 .user .user-info {
-  -webkit-box-flex: 5;
-      -ms-flex: 5;
-          flex: 5;
-  text-align: left;
+    -webkit-box-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+    text-align: left;
 }
 
 .user .user-info text {
-  display: block;
+    display: block;
 }
 
 .user .user-info .userinfo-nickname {
-  padding: 8rpx 0 10rpx 0;
-  font-size: 30rpx;
-  color: #818A8F;
+    padding: 8rpx 0 10rpx 0;
+    font-size: 30rpx;
+    color: #818A8F;
 }
 
 .user .user-info .edit {
-  font-size: 30rpx;
-  color: #bababa;
-  line-height: 34rpx;
+    font-size: 30rpx;
+    color: #bababa;
+    line-height: 34rpx;
+}
+
+button::after {
+    border: none;
+}
+
+button {
+    background-color: #fff;
+}
+
+button {
+    border-radius: 0;
+    display: initial;
+    padding-left: 0;
+}
+
+.button-hover {
+    background-color: none;
 }
 
 .my {
-  margin: 15rpx 0 0 0;
-  border-top: solid 1px #ebebeb;
-  border-bottom: solid 2px #ebebeb;
+    margin: 15rpx 0 0 0;
+    border-top: solid 1px #ebebeb;
+    border-bottom: solid 2px #ebebeb;
 }
 
 .my .my-item {
-  width: 750rpx;
-  background: #ffffff;
-  padding: 0;
+    width: 750rpx;
+    background: #ffffff;
+    padding: 0;
 }
 
 .my .my-item .myitem-icon {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 
 .my .my-item .myitem-icon image {
-  width: 45rpx;
-  height: 45rpx;
-  padding: 37.5rpx 0;
+    width: 45rpx;
+    height: 45rpx;
+    padding: 37.5rpx 0;
 }
 
 .my .my-item .myitem-name {
-  -webkit-box-flex: 5;
-      -ms-flex: 5;
-          flex: 5;
-  text-align: left;
-  font-size: 34rpx;
-  color: #6d6d6d;
-  line-height: 60rpx;
-  padding: 30rpx 0;
-  border-bottom: solid 1px #ebebeb;
+    -webkit-box-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+    text-align: left;
+    font-size: 34rpx;
+    color: #6d6d6d;
+    line-height: 60rpx;
+    padding: 30rpx 0;
+    border-bottom: solid 1px #ebebeb;
 }
 
 .my .my-item:last-child .myitem-name {
-  border-bottom: none;
+    border-bottom: none;
+}
+
+.userinfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.userinfo .userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.userinfo .userinfo-nickname {
+    color: #aaa;
+}
+
+.userinfo button::after {
+    border: none;
 }

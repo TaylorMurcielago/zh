@@ -14,7 +14,7 @@ Page({
         destinationLoc: '家乡', // 默认城市信息  
         version: app.globalData.version,
         imgUrl: app.globalData.imgUrl,
-        canIUse: wx.canIUse('button.open-type.getUserInfo'),
+        // canIUse: wx.canIUse('button.open-type.getUserInfo'),
         config: {
             horizontal: true, // 第一个选项是否横排显示（一般第一个数据选项为 热门城市，常用城市之类 ，开启看需求）
             animation: true, // 过渡动画是否开启
@@ -40,7 +40,7 @@ Page({
             // 获取定位
         let that = this;
         //location city now
-        this.getUser();
+
         this.getLocationCity();
         //调用应用实例的方法获取全局数据
         this.getData();
@@ -49,54 +49,7 @@ Page({
         })
 
     },
-    //获取用户授权
-    getUser: function(e) {
-        wx.getSetting({
-            success: (res) => {
-                // if (res.authSetting['scope.userInfo']) {
-                wx.getUserInfo({
-                        success: function(res) {
-                            console.log(res + "|||||||")
-                                //用户已经授权过
-                        },
-                        fail: function(res) {
-                            console.log(res + "[[[[[[[");
-                        }
-                    })
-                    // }
-            }
-        })
-    },
-    //点击用户授权同意之后
-    bindGetUserInfo: function(e) {
 
-        if (e.detail.userInfo) {
-            //用户按了允许授权按钮
-            console.log(e.detail.userInfo);
-            wx.showToast({
-                title: '允许', //提示文字
-                duration: 2000, //显示时长
-                mask: true, //是否显示透明蒙层，防止触摸穿透，默认：false  
-                icon: 'success', //图标，支持"success"、"loading"  
-                success: function() {}, //接口调用成功
-                fail: function() {}, //接口调用失败的回调函数  
-                complete: function() {} //接口调用结束的回调函数  
-            })
-        } else {
-            //用户按了拒绝按钮
-            console.log("+++");
-            wx.showToast({
-                title: '拒绝', //提示文字
-                duration: 2000, //显示时长
-                mask: true, //是否显示透明蒙层，防止触摸穿透，默认：false  
-                icon: 'success', //图标，支持"success"、"loading"  
-                success: function() {}, //接口调用成功
-                fail: function() {}, //接口调用失败的回调函数  
-                complete: function() {} //接口调用结束的回调函数  
-            })
-
-        }
-    },
     onShow: function() {
         var that = this;
         // console.log(app.globalData.currentLoc + "currentLoc");
@@ -137,6 +90,7 @@ Page({
             })
             //
     },
+
     bindLocation: function(event) {
         // var parameter = "?id=" + this.data.currentLoc.id + "&&name=" + this.data.currentLoc.name + "&&uid=" + this.data.currentLoc.uid;
         wx.navigateTo({
