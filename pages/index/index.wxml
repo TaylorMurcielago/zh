@@ -33,15 +33,18 @@
     <block wx:for="{{feed}}" wx:for-index="idx" wx:for-item="item" data-idx="{{idx}}">
         <view class="feed-item">
             <view class="feed-source">
-                <a class="">
+                <!-- <a class="">
                     <view class="avatar">
                         <image src="{{item.feed_source_img}}"></image>
                     </view>
                     <text>{{item.feed_source_name}}{{item.feed_source_txt}}</text>
-                </a>
+                </a> -->
                 <image class="item-more" mode="aspectFit" src="{{imgUrl}}/more.png{{version}}"></image>
             </view>
+            <!-- <image class="item-more" mode="aspectFit" src="{{imgUrl}}/more.png{{version}}"></image> -->
+
             <view class="feed-content">
+
                 <view class="question" qid="{{question_id}}" bindtap="bindQueTap">
                     <a class="question-link">
                         <text>{{item.question}}</text>

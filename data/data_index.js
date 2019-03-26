@@ -14,8 +14,8 @@ var index = {
             "feed_source_name": "Rebecca",
             "feed_source_txt": "赞了回答1",
             "feed_source_img": domain.img + "/icon1.jpeg",
-            "question": "选择 Kindle 而不是纸质书的原因是什么？",
-            "answer_ctnt": "难道不明白纸质书更贵啊！！！ 若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。 另外，用kindle看小说的怎么真心不懂了...",
+            "question": "南京最新政策了解一下？",
+            "answer_ctnt": "2018年3月1日，南京发布关于大学本科及以上学历人才和技术技能人才来宁落户的实施办法(试行)，当时明确提及试行期为1年，到期日为2019年3月1日。今日，在试行期即将结束之时，南京市公安局再次发文，确定将人才落户办法再次继续试行一年。 该人才新政规定，具有下列情形之一的，可申请户口迁入南京：（一）取得研究生以上学历或年龄在40周岁以下且取得本科学历的毕业生(含留学归国人员)：（二) 取得中级以上专业技术资格人员；（三)取得三级以上国家职业资格(技能类)人员。",
             "good_num": "112",
             "comment_num": "18"
         },
@@ -26,8 +26,8 @@ var index = {
             "feed_source_name": "Alex",
             "feed_source_txt": "回答了问题2",
             "feed_source_img": domain.img + "/icon8.jpg",
-            "question": "如何评价周杰伦的「中文歌才是最屌的」的言论？",
-            "answer_ctnt": "不知道题主是否是学音乐的。 音乐有公认的经典，也有明显的流行趋势没有错。但归根结底，音乐是一种艺术，艺术是很主观的东西。跟画作一个道理，毕加索是大家，但很多人看不懂他的话，甚至觉得很难看...",
+            "question": "a3",
+            "answer_ctnt": "a4",
             "good_num": "112",
             "comment_num": "18"
         },
@@ -38,8 +38,8 @@ var index = {
             "feed_source_name": "George",
             "feed_source_txt": "赞了回答3",
             "feed_source_img": domain.img + "/icon9.jpeg",
-            "question": "气象铁塔的辐射大吗？",
-            "answer_ctnt": "我不知道那个铁塔的情况，不过气象铁塔上会有一些测太阳辐射的设备，如果说辐射的话，太阳辐射那么多，大家赶紧躲进地底下呀~~~~~要不然辐射量这么大，会变异的呀~~~~",
+            "question": "a5",
+            "answer_ctnt": "a6",
             "good_num": "112",
             "comment_num": "18"
         },
@@ -50,8 +50,8 @@ var index = {
             "feed_source_name": "Rebecca",
             "feed_source_txt": "赞了回答4",
             "feed_source_img": domain.img + "/icon1.jpeg",
-            "question": "选择 Kindle 而不是纸质书的原因是什么？",
-            "answer_ctnt": "难道不明白纸质书更贵啊！！！ 若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。 另外，用kindle看小说的怎么真心不懂了...",
+            "question": "a7",
+            "answer_ctnt": "a8",
             "good_num": "112",
             "comment_num": "18"
         },
@@ -62,8 +62,8 @@ var index = {
             "feed_source_name": "Alex",
             "feed_source_txt": "回答了问题5",
             "feed_source_img": domain.img + "/icon8.jpg",
-            "question": "如何评价周杰伦的「中文歌才是最屌的」的言论？",
-            "answer_ctnt": "不知道题主是否是学音乐的。 音乐有公认的经典，也有明显的流行趋势没有错。但归根结底，音乐是一种艺术，艺术是很主观的东西。跟画作一个道理，毕加索是大家，但很多人看不懂他的话，甚至觉得很难看...",
+            "question": "a9",
+            "answer_ctnt": "b1",
             "good_num": "112",
             "comment_num": "18"
         },
@@ -74,8 +74,8 @@ var index = {
             "feed_source_name": "George",
             "feed_source_txt": "赞了回答6",
             "feed_source_img": domain.img + "/icon9.jpeg",
-            "question": "气象铁塔的辐射大吗？",
-            "answer_ctnt": "我不知道那个铁塔的情况，不过气象铁塔上会有一些测太阳辐射的设备，如果说辐射的话，太阳辐射那么多，大家赶紧躲进地底下呀~~~~~要不然辐射量这么大，会变异的呀~~~~",
+            "question": "b2",
+            "answer_ctnt": "b3",
             "good_num": "112",
             "comment_num": "18"
         },
@@ -86,8 +86,8 @@ var index = {
             "feed_source_name": "Rebecca",
             "feed_source_txt": "赞了回答7",
             "feed_source_img": domain.img + "/icon1.jpeg",
-            "question": "选择 Kindle 而不是纸质书的原因是什么？",
-            "answer_ctnt": "难道不明白纸质书更贵啊！！！ 若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。 另外，用kindle看小说的怎么真心不懂了...",
+            "question": "b4",
+            "answer_ctnt": "b5",
             "good_num": "112",
             "comment_num": "18"
         },
@@ -98,8 +98,8 @@ var index = {
             "feed_source_name": "Alex",
             "feed_source_txt": "回答了问题8",
             "feed_source_img": domain.img + "/icon8.jpg",
-            "question": "如何评价周杰伦的「中文歌才是最屌的」的言论？",
-            "answer_ctnt": "不知道题主是否是学音乐的。 音乐有公认的经典，也有明显的流行趋势没有错。但归根结底，音乐是一种艺术，艺术是很主观的东西。跟画作一个道理，毕加索是大家，但很多人看不懂他的话，甚至觉得很难看...",
+            "question": "b6",
+            "answer_ctnt": "b7",
             "good_num": "112",
             "comment_num": "18"
         }

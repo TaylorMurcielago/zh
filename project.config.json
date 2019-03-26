@@ -37,12 +37,26 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
 					"name": "location",
 					"pathName": "pages/location/location",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "question",
+					"pathName": "pages/question/question",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "answer",
+					"pathName": "pages/answer/answer",
 					"scene": null
 				}
 			]
